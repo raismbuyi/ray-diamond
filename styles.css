@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: calc(100% - 42px); /* Réduire la largeur pour s'adapter au bouton */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#chartContainer {
+  margin-bottom: 20px;
+}
+
+canvas {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#totalCost {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.porte-logo{
+  display: flex;
+  margin-left: 20px;
+ 
+}
+
+.logo{
+  border-radius: 50px;
+  border: 2px solid yellow;
+  box-shadow: 2px 2px 2px 2px rgb(195, 185, 193);
+}
+
+.flex{
+  margin-left: 10px;
+}
+.logo-1{
+  color: rgb(239, 239, 37);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-content ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-content ul li:last-child {
+  margin-right: 0;
+}
+
+.footer-content ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  background-color:rgb(0, 68, 255) ;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.footer-content ul li a:hover {
+  color: #ffd700; /* Change la couleur au survol */
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #ffd700; /* Change la couleur au survol */
+}
+
+.big-b{
+  background-image: url(ray.png);
+  height: 5cm;
+  width: 100%;
+}
